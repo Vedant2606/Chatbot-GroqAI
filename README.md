@@ -28,15 +28,13 @@ This project is a **conversational AI chatbot web app** built using [Streamlit](
 
 1. **Clone the repository**  
 
-git clone https://github.com/vedant2606/your-repo.git
+git clone [https://github.com/vedant2606/your-repo.git](https://github.com/Vedant2606/Chatbot-GroqAI.git)
 cd your-repo
 
-text
 
 2. **Install dependencies:**  
 pip install -r requirements.txt
 
-text
 
 3. **Set up your `.env` file**  
 Create a `.env` file in the project root with:
@@ -44,14 +42,12 @@ GROQ_API_KEY=your-groq-api-key
 LANGCHAIN_API_KEY=your-langchain-api-key
 LANGCHAIN_PROJECT=true
 
-text
 
 ## Usage
 
 1. **Start the app**
 streamlit run app.py
 
-text
 
 2. **Access in browser**  
 Go to `http://localhost:8501` to use your chatbot.
@@ -59,7 +55,7 @@ Go to `http://localhost:8501` to use your chatbot.
 ## File Structure
 
 - `app.py`: Main application script
-- `.env`: Environment variables (not committed to repo)
+- `.env`: Environment variables
 - `requirements.txt`: Python dependencies
 
 ## Customization
